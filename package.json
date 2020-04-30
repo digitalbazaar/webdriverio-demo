@@ -1,0 +1,28 @@
+{
+  "name": "webdriverio-demo",
+  "version": "0.0.1",
+  "description": "``` npm install @wdio/cli # yes option selects all the local testing defaults using chromedriver npx wdio config --yes mkdir -p test/specs",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.1.5",
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "@wdio/firefox-profile-service": "^6.0.16",
+    "@wdio/local-runner": "^6.1.6",
+    "@wdio/mocha-framework": "^6.1.6",
+    "@wdio/sauce-service": "^6.1.0",
+    "@wdio/selenium-standalone-service": "^6.0.16",
+    "@wdio/spec-reporter": "^6.1.5",
+    "chromedriver": "^81.0.0",
+    "wdio-chromedriver-service": "^6.0.2"
+  },
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "",
+  "license": "ISC"
+}
